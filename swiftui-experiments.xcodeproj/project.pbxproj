@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F186CF432727D8A5009ECF52 /* HStackDynamicHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = F186CF422727D8A5009ECF52 /* HStackDynamicHeight.swift */; };
+		F186CF452727F2CF009ECF52 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F186CF442727F2CF009ECF52 /* README.md */; };
 		F1E6B5452722B2340094CACD /* swiftui_experimentsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E6B5442722B2340094CACD /* swiftui_experimentsApp.swift */; };
 		F1E6B5472722B2340094CACD /* HeartWithBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E6B5462722B2340094CACD /* HeartWithBadgeView.swift */; };
 		F1E6B5492722B2370094CACD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1E6B5482722B2370094CACD /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		F186CF422727D8A5009ECF52 /* HStackDynamicHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackDynamicHeight.swift; sourceTree = "<group>"; };
+		F186CF442727F2CF009ECF52 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F1E6B5412722B2340094CACD /* swiftui-experiments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-experiments.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1E6B5442722B2340094CACD /* swiftui_experimentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_experimentsApp.swift; sourceTree = "<group>"; };
 		F1E6B5462722B2340094CACD /* HeartWithBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartWithBadgeView.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 		F1E6B5382722B2340094CACD = {
 			isa = PBXGroup;
 			children = (
+				F186CF442727F2CF009ECF52 /* README.md */,
 				F1E6B5432722B2340094CACD /* swiftui-experiments */,
 				F1E6B5542722B2370094CACD /* swiftui-experimentsTests */,
 				F1E6B55E2722B2370094CACD /* swiftui-experimentsUITests */,
@@ -237,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F186CF452727F2CF009ECF52 /* README.md in Resources */,
 				F1E6B54C2722B2370094CACD /* Preview Assets.xcassets in Resources */,
 				F1E6B5492722B2370094CACD /* Assets.xcassets in Resources */,
 			);
