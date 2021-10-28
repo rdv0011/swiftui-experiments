@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		F186CF432727D8A5009ECF52 /* HStackDynamicHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = F186CF422727D8A5009ECF52 /* HStackDynamicHeight.swift */; };
 		F186CF452727F2CF009ECF52 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F186CF442727F2CF009ECF52 /* README.md */; };
+		F186CF4C27295704009ECF52 /* AnimatedButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F186CF4B27295704009ECF52 /* AnimatedButtonView.swift */; };
+		F186CF4E2729584A009ECF52 /* AnimationTimingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F186CF4D2729584A009ECF52 /* AnimationTimingView.swift */; };
+		F186CF5027296AD6009ECF52 /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F186CF4F27296AD6009ECF52 /* TransitionView.swift */; };
 		F1E6B5452722B2340094CACD /* swiftui_experimentsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E6B5442722B2340094CACD /* swiftui_experimentsApp.swift */; };
 		F1E6B5472722B2340094CACD /* HeartWithBadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E6B5462722B2340094CACD /* HeartWithBadgeView.swift */; };
 		F1E6B5492722B2370094CACD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1E6B5482722B2370094CACD /* Assets.xcassets */; };
@@ -39,6 +42,9 @@
 /* Begin PBXFileReference section */
 		F186CF422727D8A5009ECF52 /* HStackDynamicHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackDynamicHeight.swift; sourceTree = "<group>"; };
 		F186CF442727F2CF009ECF52 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F186CF4B27295704009ECF52 /* AnimatedButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedButtonView.swift; sourceTree = "<group>"; };
+		F186CF4D2729584A009ECF52 /* AnimationTimingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTimingView.swift; sourceTree = "<group>"; };
+		F186CF4F27296AD6009ECF52 /* TransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView.swift; sourceTree = "<group>"; };
 		F1E6B5412722B2340094CACD /* swiftui-experiments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-experiments.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1E6B5442722B2340094CACD /* swiftui_experimentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_experimentsApp.swift; sourceTree = "<group>"; };
 		F1E6B5462722B2340094CACD /* HeartWithBadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartWithBadgeView.swift; sourceTree = "<group>"; };
@@ -105,6 +111,9 @@
 				F1E6B5462722B2340094CACD /* HeartWithBadgeView.swift */,
 				F1E6B56E2722C2350094CACD /* TextCardView.swift */,
 				F186CF422727D8A5009ECF52 /* HStackDynamicHeight.swift */,
+				F186CF4B27295704009ECF52 /* AnimatedButtonView.swift */,
+				F186CF4D2729584A009ECF52 /* AnimationTimingView.swift */,
+				F186CF4F27296AD6009ECF52 /* TransitionView.swift */,
 				F1E6B5482722B2370094CACD /* Assets.xcassets */,
 				F1E6B54A2722B2370094CACD /* Preview Content */,
 			);
@@ -267,7 +276,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F186CF4C27295704009ECF52 /* AnimatedButtonView.swift in Sources */,
+				F186CF4E2729584A009ECF52 /* AnimationTimingView.swift in Sources */,
 				F186CF432727D8A5009ECF52 /* HStackDynamicHeight.swift in Sources */,
+				F186CF5027296AD6009ECF52 /* TransitionView.swift in Sources */,
 				F1E6B5472722B2340094CACD /* HeartWithBadgeView.swift in Sources */,
 				F1E6B5452722B2340094CACD /* swiftui_experimentsApp.swift in Sources */,
 				F1E6B56F2722C2350094CACD /* TextCardView.swift in Sources */,
