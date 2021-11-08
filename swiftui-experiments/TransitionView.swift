@@ -11,13 +11,15 @@ struct TransitionView: View {
         ZStack(alignment: .bottom) {
             VStack {
                 Button("Click") {
-                    withAnimation(.spring()) {
+                    withAnimation(.spring(response: 1, dampingFraction: 0.7, blendDuration: 1)) {
                         showView.toggle()
                     }
                 }
                 Spacer()
                 if showView {
                     RoundedRectangle(cornerRadius: 30)
+                        .fill(.red)
+                        .offset(y: 30)
                         .frame(maxWidth: .infinity, maxHeight: 300)
                         .transition(.move(edge: .bottom))
                 }
