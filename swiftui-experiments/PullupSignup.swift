@@ -54,12 +54,12 @@ struct PullupSignup: View {
                     DragGesture()
                         .onChanged { value in
                             withAnimation(.spring()) {
-                                currentDragOffsetY = value.translation.height
+                                onChangedUpdateOffset(height: value.translation.height)
                             }
                         }
                         .onEnded { _ in
                             withAnimation(.spring()) {
-                                updateOffset()
+                                onEndedUpdateOffset()
                             }
                         }
                 )
@@ -67,7 +67,11 @@ struct PullupSignup: View {
         .edgesIgnoringSafeArea(.bottom)
     }
     
-    private func updateOffset() {
+    private func onChangedUpdateOffset(height: CGFloat) {
+        currentDragOffsetY = height
+    }
+    
+    private func onEndedUpdateOffset() {
         if currentDragOffsetY < -150 {
             endingOffsetY = -startingOffsetY
         } else if endingOffsetY != 0 && currentDragOffsetY > 150 {

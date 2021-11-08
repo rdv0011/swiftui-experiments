@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		66EE757F27395A6800CB6B7A /* PullupSignup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EE757E27395A6800CB6B7A /* PullupSignup.swift */; };
+		66EE75812739B9CC00CB6B7A /* MatchedGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EE75802739B9CC00CB6B7A /* MatchedGeometry.swift */; };
 		F186CF432727D8A5009ECF52 /* HStackDynamicHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = F186CF422727D8A5009ECF52 /* HStackDynamicHeight.swift */; };
 		F186CF452727F2CF009ECF52 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F186CF442727F2CF009ECF52 /* README.md */; };
 		F186CF4C27295704009ECF52 /* AnimatedButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F186CF4B27295704009ECF52 /* AnimatedButtonView.swift */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		66EE757E27395A6800CB6B7A /* PullupSignup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullupSignup.swift; sourceTree = "<group>"; };
+		66EE75802739B9CC00CB6B7A /* MatchedGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometry.swift; sourceTree = "<group>"; };
 		F186CF422727D8A5009ECF52 /* HStackDynamicHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackDynamicHeight.swift; sourceTree = "<group>"; };
 		F186CF442727F2CF009ECF52 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F186CF4B27295704009ECF52 /* AnimatedButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedButtonView.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				F1E6B5482722B2370094CACD /* Assets.xcassets */,
 				F1E6B54A2722B2370094CACD /* Preview Content */,
 				66EE757E27395A6800CB6B7A /* PullupSignup.swift */,
+				66EE75802739B9CC00CB6B7A /* MatchedGeometry.swift */,
 			);
 			path = "swiftui-experiments";
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 				66EE757F27395A6800CB6B7A /* PullupSignup.swift in Sources */,
 				F1E6B5452722B2340094CACD /* swiftui_experimentsApp.swift in Sources */,
 				F1E6B56F2722C2350094CACD /* TextCardView.swift in Sources */,
+				66EE75812739B9CC00CB6B7A /* MatchedGeometry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
