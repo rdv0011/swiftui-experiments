@@ -12,7 +12,8 @@ struct swiftui_experimentsApp: App {
         WindowGroup {
             //HeartWithBadgeView(badgeText: .constant("2"))
             //TransitionView()
-            AppNavBarView()
+            // AppNavBarView()
+            FluidCardHome()
         }
     }
 }

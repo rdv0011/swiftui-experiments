@@ -19,6 +19,7 @@
 		6688D0E527417060004DC3E0 /* AppTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6688D0E427417060004DC3E0 /* AppTabBarView.swift */; };
 		6688D0E72741714A004DC3E0 /* TabBarItemsPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6688D0E62741714A004DC3E0 /* TabBarItemsPreferenceKey.swift */; };
 		6688D0EA27417B42004DC3E0 /* TabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6688D0E927417B42004DC3E0 /* TabBarItem.swift */; };
+		66AFA46E27DE66FB00A4A79B /* FluidCardHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AFA46D27DE66FB00A4A79B /* FluidCardHome.swift */; };
 		66EE757F27395A6800CB6B7A /* PullupSignup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EE757E27395A6800CB6B7A /* PullupSignup.swift */; };
 		66EE75812739B9CC00CB6B7A /* MatchedGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EE75802739B9CC00CB6B7A /* MatchedGeometry.swift */; };
 		F186CF432727D8A5009ECF52 /* HStackDynamicHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = F186CF422727D8A5009ECF52 /* HStackDynamicHeight.swift */; };
@@ -66,6 +67,7 @@
 		6688D0E427417060004DC3E0 /* AppTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarView.swift; sourceTree = "<group>"; };
 		6688D0E62741714A004DC3E0 /* TabBarItemsPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemsPreferenceKey.swift; sourceTree = "<group>"; };
 		6688D0E927417B42004DC3E0 /* TabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItem.swift; sourceTree = "<group>"; };
+		66AFA46D27DE66FB00A4A79B /* FluidCardHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidCardHome.swift; sourceTree = "<group>"; };
 		66EE757E27395A6800CB6B7A /* PullupSignup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullupSignup.swift; sourceTree = "<group>"; };
 		66EE75802739B9CC00CB6B7A /* MatchedGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometry.swift; sourceTree = "<group>"; };
 		F186CF422727D8A5009ECF52 /* HStackDynamicHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackDynamicHeight.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				661720BC273C3EBB0095781E /* AnimatableData.swift */,
 				66391E2B27445D7300CF7EE3 /* CustomNavBar */,
 				6688D0E827417B23004DC3E0 /* CustomTabBar */,
+				66AFA46D27DE66FB00A4A79B /* FluidCardHome.swift */,
 			);
 			path = "swiftui-experiments";
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 				66391E312744630800CF7EE3 /* AppNavBarView.swift in Sources */,
 				F186CF4C27295704009ECF52 /* AnimatedButtonView.swift in Sources */,
 				66391E352744666700CF7EE3 /* CustomNavLink.swift in Sources */,
+				66AFA46E27DE66FB00A4A79B /* FluidCardHome.swift in Sources */,
 				66391E3727446D1000CF7EE3 /* CustomNavBarPreferenceKeys.swift in Sources */,
 				F186CF4E2729584A009ECF52 /* AnimationTimingView.swift in Sources */,
 				6688D0E12741678B004DC3E0 /* CustomTabBarContainerView.swift in Sources */,
@@ -515,7 +519,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"swiftui-experiments/Preview Content\"";
-				DEVELOPMENT_TEAM = 6JXQ48TPFG;
+				DEVELOPMENT_TEAM = TM358XHW5H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
